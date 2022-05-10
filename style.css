@@ -1,0 +1,53 @@
+body {
+    background-color: wheat;
+    padding: min(5vw,5vh);
+  }
+  .container{
+      margin: auto;
+  }
+  
+  .parent {
+      width: auto;
+    display: grid;
+    grid-gap: min(1vw,1vh);
+    grid-template-columns: repeat(auto-fill, max(200px ,10vw));
+    
+  }
+  
+  .child {
+    height: max(200px ,10vw);
+    width: max(200px ,10vw); 
+    background-color: brown;
+  }
+
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+  }
